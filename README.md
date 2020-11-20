@@ -1,3 +1,5 @@
+https://raw.githack.com/DeathBarmaglot/ad/main/!slick/index.html
+
 https://raw.githack.com/DeathBarmaglot/ad/main/acc/index.html
 https://raw.githack.com/DeathBarmaglot/ad/main/baby/index.html
 https://raw.githack.com/DeathBarmaglot/ad/main/ae%20planet/index.html
