@@ -1,6 +1,6 @@
 https://raw.githack.com/DeathBarmaglot/ad/main/acc/index.html
 https://raw.githack.com/DeathBarmaglot/ad/main/baby/index.html
-https://raw.githack.com/DeathBarmaglot/ad/main/ae planet/index.html
+https://raw.githack.com/DeathBarmaglot/ad/main/ae%20planet/index.html
 https://raw.githack.com/DeathBarmaglot/ad/main/aznuari/index.html
 https://raw.githack.com/DeathBarmaglot/ad/main/bronxo/index.html
 https://raw.githack.com/DeathBarmaglot/ad/main/ca/ca.html
