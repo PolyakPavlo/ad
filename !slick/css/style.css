@@ -115,6 +115,10 @@ transform: scale3d(.5, .5, .5)
 	opacity: 0.2;
 }
 
+div:hover{
+cursor: pointer;
+opacity: 0}
+
 .slider .slick-dots{
 	display: flex;
 	align-items: center;
