@@ -1,3 +1,4 @@
+
 /*Обнуление*/
 *,*:before,*:after{
 	padding: 0;
@@ -6,6 +7,11 @@
 	box-sizing: border-box;
 
 }
+src:hover{
+cursor: pointer;
+opacity: 0}
+
+
 /*Стили для демонстрации*/
 html,body{
 	height: 100%;
@@ -115,9 +121,6 @@ transform: scale3d(.5, .5, .5)
 	opacity: 0.2;
 }
 
-div:hover{
-cursor: pointer;
-opacity: 0}
 
 .slider .slick-dots{
 	display: flex;
