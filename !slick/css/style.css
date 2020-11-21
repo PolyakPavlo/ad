@@ -9,10 +9,10 @@
 }
 .slider__item filter:hover{
 cursor: pointer;
-opacity: 0}
+transform: scale(1.5);}
 .slider__item:hover{
 cursor: pointer;
-opacity: 0}
+transform: scale(1.5);}
 
 
 /*Стили для демонстрации*/
