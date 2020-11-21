@@ -1,0 +1,160 @@
+<!DOCTYPE html><html lang=en><head><script src="exitapi-impl.js" type="text/javascript"></script><script src="addata.js" type="text/javascript"></script><meta charset="UTF-8"><meta content="width=device-width, initial-scale=1" name=viewport><meta content="width=300, height=250" name="ad.size"><title>Document</title><style>
+		body 	{ margin: 0; padding: 0; }
+		.pos 	{ position: absolute; width: 300px; height: 250px; left: 0; top: 0; }
+		#banner	{ cursor: pointer; overflow: hidden; opacity: 0; background: rgba(255,255,255,1); }
+		#frame	{ border: 1px solid #333333; box-sizing: border-box; }
+		#bg		{ background-image: linear-gradient(to right, #43548f 0%, #40a9e5 100%); }
+		#btn	{ background: url(btn.png) no-repeat 50% 50%; width: 250px; height: 50px; left: 25px; top: 185px; }
+		#logo	{ background: url(logo.png) no-repeat 50% 50%; top: 75px;}
+		.txt1	{ background: url(txt1.png) no-repeat 0% 0%; width: inherit; height: 22px; }
+		.txt2	{ background: url(txt2.png) no-repeat 0% 0%; width: inherit; height: 22px; }
+		.txt3	{ background: url(txt3.png) no-repeat 0% 0%; width: inherit; height: 22px; }
+		.txt4	{ background: url(txt4.png) no-repeat 0% 0%; width: inherit; height: 22px; }
+		.txt5	{ background: url(txt5.png) no-repeat 0% 0%; width: inherit; height: 22px; }
+		.txt6	{ background: url(txt6.png) no-repeat 0% 0%; }
+		.t1wrap, .t2wrap	{ width: inherit; height: 22px; top: 205px; overflow: hidden; }
+		.t2wrap	{ top: 227px; }
+		#t11, #t21, #t31, #t41, #t51 { top: 0px; background-position: 50% -205px;}
+		#t12, #t22, #t32, #t42, #t52 { top: 0px; background-position: 50% -227px;}
+		
+		#picwrapper	{ width: inherit; height: 200px; top: 0px;  overflow: hidden;}
+		.pic	{ height: 200px; }	
+		#pic1	{ background: url(pic1.jpg) no-repeat 100% 100%; -webkit-background-size: contain; background-size: contain; }
+		#pic2	{ background: url(pic2.jpg) no-repeat 100% 100%; -webkit-background-size: contain; background-size: contain; }
+		#pic3	{ background: url(pic3.jpg) no-repeat 100% 100%; -webkit-background-size: contain; background-size: contain; }
+		#pic4	{ background: url(pic4.jpg) no-repeat 100% 100%; -webkit-background-size: contain; background-size: contain; }
+		#pic5	{ background: url(pic5.jpg) no-repeat 100% 100%; -webkit-background-size: contain; background-size: contain; }
+	</style><script src="tweenmax_1.20.0_d360d9a082ccc13b1a1a9b153f86b378_min.js"></script></head><body onclick="ExitApi.exit();" style="cursor:pointer">
+
+
+	
+	
+	
+	
+    
+
+	<div class=pos id=banner>
+		<div class=pos id=picwrapper>
+			<div class="pos pic" id=pic1></div>
+			<div class="pos pic" id=pic2></div>
+			<div class="pos pic" id=pic3></div>
+			<div class="pos pic" id=pic4></div>
+			<div class="pos pic" id=pic5></div>
+		</div>
+
+		<div class="pos bg" id=bg></div>
+		<div class=pos id=txtcnt>
+			<div class=pos id=t1>
+				<div class="pos t1wrap">
+					<div class="pos txt1" id=t11></div>
+				</div>
+				<div class="pos t2wrap">
+					<div class="pos txt1" id=t12></div>
+				</div>
+			</div>
+
+			<div class=pos id=t2>
+				<div class="pos t1wrap">
+					<div class="pos txt2" id=t21></div>
+				</div>
+				<div class="pos t2wrap">
+					<div class="pos txt2" id=t22></div>
+				</div>
+			</div>
+
+			<div class=pos id=t3>
+				<div class="pos t1wrap">
+					<div class="pos txt3" id=t31></div>
+				</div>
+				<div class="pos t2wrap">
+					<div class="pos txt3" id=t32></div>
+				</div>
+			</div>
+
+			<div class=pos id=t4>
+				<div class="pos t1wrap">
+					<div class="pos txt4" id=t41></div>
+				</div>
+				<div class="pos t2wrap">
+					<div class="pos txt4" id=t42></div>
+				</div>
+			</div>
+
+			<div class=pos id=t5>
+				<div class="pos t1wrap">
+					<div class="pos txt5" id=t51></div>
+				</div>
+				<div class="pos t2wrap">
+					<div class="pos txt5" id=t52></div>
+				</div>
+			</div>
+
+		</div>
+		<div class="pos txt6" id=t6></div>
+		<div class=pos id=btn></div>
+		<div class=pos id=logo></div>
+		<div class=pos id=frame></div>
+	</div>
+	<script>
+		var clickTag = "https://optima.school/";
+		var banner = document.querySelector('#banner');
+		banner.addEventListener('click', gotoURL);
+		window.addEventListener('load', showAds);
+
+		/* Animation timeline */
+		var tl = new TimelineMax({ repeat: 1, repeatDelay: 0.0, paused: true, onComplete: gotoStopFrame });
+		tl.to('#logo', 0.50, { y: "-=175", ease: Cubic.easeOut}, "+=0.25")
+		  .to('#bg', 0.50, { y: "+=200", ease: Cubic.easeInOut}, "-=0.50")
+		  .to('#pic1', 2.25, { scale: 1.07, ease: Power0.easeNone}, "-=0.25")	  
+		  .staggerFrom(['#t11', '#t12','#t13'], 0.50, { y:"+=22", ease: Cubic.easeOut}, 0.25, "-=2.00")
+		  .to('#t1', 0.25, { alpha: 0, ease: Power0.easeNone}, "-=0.25")
+		  .from('#pic2', 0.25, { alpha: 0, ease: Power0.easeNone}, "-=0.25")	  
+		  .to('#pic2', 2.25, { scale: 1.07, ease: Power0.easeNone}, "-=0.25")	  
+		  .staggerFrom(['#t21', '#t22'], 0.50, { y:"+=22", ease: Cubic.easeOut}, 0.25, "-=2.00")
+		  .to('#t2', 0.25, { alpha: 0, ease: Power0.easeNone}, "-=0.25")
+		  .from('#pic3', 0.25, { alpha: 0, ease: Power0.easeNone}, "-=0.25")	  
+		  .to('#pic3', 2.25, { scale: 1.07, ease: Power0.easeNone}, "-=0.25")	  
+		  .staggerFrom(['#t31', '#t32','#t33'], 0.50, { y:"+=22", ease: Cubic.easeOut}, 0.25, "-=2.00")
+		  .to('#t3', 0.25, { alpha: 0, ease: Power0.easeNone}, "-=0.25")
+		  .from('#pic4', 0.25, { alpha: 0, ease: Power0.easeNone}, "-=0.25")	  
+		  .to('#pic4', 2.25, { scale: 1.07, ease: Power0.easeNone}, "-=0.25")	  
+		  .staggerFrom(['#t41', '#t42','#t43'], 0.50, { y:"+=22", ease: Cubic.easeOut}, 0.25, "-=2.00")
+		  .to('#t4', 0.25, { alpha: 0, ease: Power0.easeNone}, "-=0.25")
+		  .from('#pic5', 0.25, { alpha: 0, ease: Power0.easeNone}, "-=0.25")	  
+		  .to('#pic5', 2.25, { scale: 1.07, ease: Power0.easeNone}, "-=0.25")	  
+		  .staggerFrom(['#t51', '#t52'], 0.50, { y:"+=22", ease: Cubic.easeOut}, 0.25, "-=2.00")
+		  .to('#t5', 0.25, { alpha: 0, ease: Power0.easeNone}, "-=0.25")
+		  .to('#bg', 0.50, { y: "-=200", ease: Cubic.easeInOut}, "-=0.25")
+		  .to('#logo', 0.50, { y: "+=100", ease: Cubic.easeInOut}, "-=0.25")
+		  .from('#t6', 0.50, { alpha: 0, ease: Power0.easeNone}, "-=0.00")
+		  .from('#btn', 0.50, { alpha: 0, scale: 0.80, ease: Back.easeOut}, "+=0.50")
+		  .addLabel("stopFrame")
+		  .call(checkLoops, [], this)
+		  .to(['#t6', '#btn'], 0.25, { alpha: 0, ease: Cubic.easeOut}, "+=2.00")
+		  .to('#logo', 0.25, { y: "+=75", ease: Cubic.easeInOut}, "-=0.25");
+		   
+
+		console.log('Duration: ' + tl.duration());
+		console.log('Total Duration: ' + tl.totalDuration());
+
+		/* functions */
+		function showAds(){
+			banner.style.opacity = "1";
+			tl.play();
+		}
+		function gotoURL(){
+			window.open(clickTag, "_blank");
+		}
+		function gotoStopFrame(){
+			tl.seek("stopFrame");
+			tl.pause();
+		}
+		function checkLoops(){
+			if(tl._cycle>=1){
+				gotoStopFrame();
+			}
+		}
+
+	</script>
+
+</body></html>
