@@ -14,3 +14,13 @@ https://raw.githack.com/DeathBarmaglot/ad/main/fiat/index.html
 https://raw.githack.com/DeathBarmaglot/ad/main/golf/index.html
 https://raw.githack.com/DeathBarmaglot/ad/main/gusto/index.html
 https://raw.githack.com/DeathBarmaglot/ad/main/hublot/index.html
+https://raw.githack.com/DeathBarmaglot/ad/main/lex/index.html
+https://raw.githack.com/DeathBarmaglot/ad/main/lexus/index.html
+https://raw.githack.com/DeathBarmaglot/ad/main/mot/index.html
+https://raw.githack.com/DeathBarmaglot/ad/main/nail/index.html
+https://raw.githack.com/DeathBarmaglot/ad/main/np/index.html
+https://raw.githack.com/DeathBarmaglot/ad/main/opt/index.html
+https://raw.githack.com/DeathBarmaglot/ad/main/toyota/index.html
+https://raw.githack.com/DeathBarmaglot/ad/main/to/index.html
+https://raw.githack.com/DeathBarmaglot/ad/main/ukr/index.html
+https://raw.githack.com/DeathBarmaglot/ad/main/x3/index.html
