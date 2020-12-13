@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!-- saved from url=(0095)https://s.zone.nogravitycdn.com/media/html5/6/3/20ef65fa-21ee-47f9-ac78-79cc52b66849/index.html -->
+<html lang="ru"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=contain">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <script>
+      var ClickTag_Blank = function () {
+      	window.open(window.clickTAG, "_blank");
+      };
+      var _config = {
+      	cont_width: 0,
+      cont_top_delay: 0,
+      head_top_delay: 0,
+      head_height: 0
+      };
+      window.addEventListener('message', function (e) {
+      _config.cont_width = e.data.contentWidth;
+      	_config.cont_top_delay = e.data.distanceToTop;
+      	_config.head_top_delay = e.data.headerHeight;
+      	_config.head_height = e.data.distanceToTop - e.data.headerHeight;
+      
+      	var center = document.querySelector('.center');
+      	var top = document.querySelector('#top');
+      
+      	center.style.width = _config.cont_width + 'px';
+      	top.style.width = _config.cont_width + 'px';
+      	top.style.height = _config.cont_top_delay + 'px';
+      	top.style.paddingTop = _config.head_top_delay + 'px';
+      
+      	});
+    </script>
+    <link rel="stylesheet" href="style.min.css">
+  </head>
+  <body>
+    <div class="adv_brnd body-wrap" id="adv_brnd" onclick="ClickTag_Blank()">
+      <div class="text-1">
+        <img src="text-1.png" alt="">
+      </div>
+      <div class="text-2">
+        <img src="text-2.png" alt="">
+      </div>
+      <div class="btn">
+        <img src="btn.png" alt="">
+      </div>
+      <div class="circle">
+        <img src="circle.png" alt="">
+      </div>
+      <div class="car">
+        <img src="car.png" alt="">
+      </div>
+      <div class="logo">
+        <img src="logo.png" alt="">
+      </div>
+      <!-- Блоки с подарками -->
+      <div class="pres-1">
+        <img src="pres-1.png" alt="">
+      </div>
+      <div class="pres-2">
+        <img src="pres-2.png" alt="">
+      </div>
+      <div class="pres-3">
+        <img src="pres-3.png" alt="">
+      </div>
+      <div class="pres-4">
+        <img src="pres-4.png" alt="">
+      </div>
+    </div>
+  
+</body></html>
