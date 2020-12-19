@@ -7,12 +7,6 @@
 	box-sizing: border-box;
 
 }
-.slider__item filter:hover{
-cursor: pointer;
-transform: scale(1.5);}
-.slider__item:hover{
-cursor: pointer;
-transform: scale(1.5);}
 
 
 /*Стили для демонстрации*/
