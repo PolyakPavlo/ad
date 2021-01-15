@@ -1,0 +1,295 @@
+html,body{
+background: #444444;
+margin: 0;
+padding: 0;
+width: 300px;
+height: 250px;
+}
+.wrapper{
+position:absolute;
+background: #000000;
+overflow:hidden;
+width: 300px;
+height: 250px;
+}
+
+.i00{
+-webkit-transform: rotate(0deg);
+-moz-transform: rotate(0deg);
+-o-transform: rotate(0deg);
+-o-transform-origin: left top;
+transform-origin: left top;
+-ms-transform-origin: left top;
+-moz-transform-origin: left top;
+-webkit-transform-origin: left top;
+transform-origin: left top;
+
+-moz-transform: scale(1, 1);
+-webkit-transform: scale(1, 1);
+-ms-transform: scale(1, 1);
+-o-transform: scale(1, 1);
+opacity: 1;
+position:absolute;
+left:0px;
+top:0px;
+width:300px;
+height:250px
+}
+.i10{
+-o-transform-origin: left top;
+transform-origin: left top;
+-ms-transform-origin: left top;
+-moz-transform-origin: left top;
+-webkit-transform-origin: left top;
+transform-origin: left top;
+
+-moz-transform: scale(1, 1);
+-webkit-transform: scale(1, 1);
+-ms-transform: scale(1, 1);
+-o-transform: scale(1, 1);
+opacity: 1;
+position:absolute;
+left:0px;
+top:0px;
+background: url("images/i10.png") no-repeat center;
+background-size: contain;
+width:300px;
+height:250px
+}
+.i01{
+-webkit-transform: rotate(0deg);
+-moz-transform: rotate(0deg);
+-o-transform: rotate(0deg);
+-o-transform-origin: left top;
+transform-origin: left top;
+-ms-transform-origin: left top;
+-moz-transform-origin: left top;
+-webkit-transform-origin: left top;
+transform-origin: left top;
+
+-moz-transform: scale(1, 1);
+-webkit-transform: scale(1, 1);
+-ms-transform: scale(1, 1);
+-o-transform: scale(1, 1);
+opacity: 1;
+position:absolute;
+left:64px;
+top:51px;
+width:202px;
+height:199px
+}
+.i20{
+-o-transform-origin: left top;
+transform-origin: left top;
+-ms-transform-origin: left top;
+-moz-transform-origin: left top;
+-webkit-transform-origin: left top;
+transform-origin: left top;
+
+-moz-transform: scale(1, 1);
+-webkit-transform: scale(1, 1);
+-ms-transform: scale(1, 1);
+-o-transform: scale(1, 1);
+opacity: 1;
+position:absolute;
+left:0px;
+top:0px;
+background: url("images/i20.png") no-repeat center;
+background-size: contain;
+width:202px;
+height:199px
+}
+.i02{
+-webkit-transform: rotate(0deg);
+-moz-transform: rotate(0deg);
+-o-transform: rotate(0deg);
+-o-transform-origin: left top;
+transform-origin: left top;
+-ms-transform-origin: left top;
+-moz-transform-origin: left top;
+-webkit-transform-origin: left top;
+transform-origin: left top;
+
+-moz-transform: scale(1, 1);
+-webkit-transform: scale(1, 1);
+-ms-transform: scale(1, 1);
+-o-transform: scale(1, 1);
+opacity: 0;
+position:absolute;
+left:-290px;
+top:91px;
+width:596px;
+height:159px
+}
+.i30{
+-o-transform-origin: left top;
+transform-origin: left top;
+-ms-transform-origin: left top;
+-moz-transform-origin: left top;
+-webkit-transform-origin: left top;
+transform-origin: left top;
+
+-moz-transform: scale(1, 1);
+-webkit-transform: scale(1, 1);
+-ms-transform: scale(1, 1);
+-o-transform: scale(1, 1);
+opacity: 1;
+position:absolute;
+left:0px;
+top:0px;
+background: url("images/i30.png") no-repeat center;
+background-size: contain;
+width:596px;
+height:159px
+}
+.i03{
+-webkit-transform: rotate(0deg);
+-moz-transform: rotate(0deg);
+-o-transform: rotate(0deg);
+-o-transform-origin: left top;
+transform-origin: left top;
+-ms-transform-origin: left top;
+-moz-transform-origin: left top;
+-webkit-transform-origin: left top;
+transform-origin: left top;
+
+-moz-transform: scale(1, 1);
+-webkit-transform: scale(1, 1);
+-ms-transform: scale(1, 1);
+-o-transform: scale(1, 1);
+opacity: 0;
+position:absolute;
+left:35px;
+top:193px;
+width:252px;
+height:26px
+}
+.i40{
+-webkit-transform: rotate(0deg);
+-moz-transform: rotate(0deg);
+-o-transform: rotate(0deg);
+-o-transform-origin: left top;
+transform-origin: left top;
+-ms-transform-origin: left top;
+-moz-transform-origin: left top;
+-webkit-transform-origin: left top;
+transform-origin: left top;
+
+-moz-transform: scale(1, 1);
+-webkit-transform: scale(1, 1);
+-ms-transform: scale(1, 1);
+-o-transform: scale(1, 1);
+opacity: 1;
+position:absolute;
+left:-11px;
+top:0px;
+width:252px;
+height:26px
+}
+.i50{
+-o-transform-origin: left top;
+transform-origin: left top;
+-ms-transform-origin: left top;
+-moz-transform-origin: left top;
+-webkit-transform-origin: left top;
+transform-origin: left top;
+
+-moz-transform: scale(1, 1);
+-webkit-transform: scale(1, 1);
+-ms-transform: scale(1, 1);
+-o-transform: scale(1, 1);
+opacity: 1;
+position:absolute;
+left:0px;
+top:0px;
+background: url("images/i50.png") no-repeat center;
+background-size: contain;
+width:252px;
+height:26px
+}
+.i04{
+-webkit-transform: rotate(0deg);
+-moz-transform: rotate(0deg);
+-o-transform: rotate(0deg);
+-o-transform-origin: left top;
+transform-origin: left top;
+-ms-transform-origin: left top;
+-moz-transform-origin: left top;
+-webkit-transform-origin: left top;
+transform-origin: left top;
+
+-moz-transform: scale(1, 1);
+-webkit-transform: scale(1, 1);
+-ms-transform: scale(1, 1);
+-o-transform: scale(1, 1);
+opacity: 1;
+position:absolute;
+left:25px;
+top:25px;
+width:247px;
+height:10px
+}
+.i60{
+-o-transform-origin: left top;
+transform-origin: left top;
+-ms-transform-origin: left top;
+-moz-transform-origin: left top;
+-webkit-transform-origin: left top;
+transform-origin: left top;
+
+-moz-transform: scale(1, 1);
+-webkit-transform: scale(1, 1);
+-ms-transform: scale(1, 1);
+-o-transform: scale(1, 1);
+opacity: 1;
+position:absolute;
+left:0px;
+top:0px;
+background: url("images/i60.png") no-repeat center;
+background-size: contain;
+width:247px;
+height:10px
+}
+.i05{
+-webkit-transform: rotate(0deg);
+-moz-transform: rotate(0deg);
+-o-transform: rotate(0deg);
+-o-transform-origin: left top;
+transform-origin: left top;
+-ms-transform-origin: left top;
+-moz-transform-origin: left top;
+-webkit-transform-origin: left top;
+transform-origin: left top;
+
+-moz-transform: scale(1, 1);
+-webkit-transform: scale(1, 1);
+-ms-transform: scale(1, 1);
+-o-transform: scale(1, 1);
+opacity: 0;
+position:absolute;
+left:26px;
+top:166px;
+width:246px;
+height:66px
+}
+.i70{
+-o-transform-origin: left top;
+transform-origin: left top;
+-ms-transform-origin: left top;
+-moz-transform-origin: left top;
+-webkit-transform-origin: left top;
+transform-origin: left top;
+
+-moz-transform: scale(1, 1);
+-webkit-transform: scale(1, 1);
+-ms-transform: scale(1, 1);
+-o-transform: scale(1, 1);
+opacity: 1;
+position:absolute;
+left:0px;
+top:0px;
+background: url("images/i70.png") no-repeat center;
+background-size: contain;
+width:246px;
+height:66px
+}
