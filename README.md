@@ -5,4 +5,5 @@ banners:
 - [barista](https://s0.2mdn.net/sadbundle/7503248129749687615/300x250.html)
 - [numo](https://s0.2mdn.net/sadbundle/3252036345338701284/index.html)
 - [pegas](https://s0.2mdn.net/8594506/1611728733711/300x250.html)
-- []()
+- [liver](https://tpc.googlesyndication.com/sadbundle/$csp%3Der3$/2363436394481453026/index.html)
+- []()- []()- []()- []()
